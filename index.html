@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- for km to miles -->
+    <!-- <input type="number" name=""  step="any" id="data" /> kms
+    <button onclick="convert()" type="button">Convert</button> miles
+    <h1 id="result"></h1> -->
+
+
+    <!-- for cel to fah -->
+     <!-- <input type="number" name=""  step="any" id="data" /> cel
+    <button onclick="convert()" type="button">Convert</button> fah
+    <h1 id="result"></h1> -->
+
+
+    <!-- check -ve and +ve -->
+    <!-- <input type="number" name=""  step="any" id="data" /> 
+    <button onclick="check()" type="button">Check</button> 
+    <h1 id="result"></h1> -->
+</body>
+<script>
+    // console.log("hello world"); // in console
+    // alert("hello world");
+    // document.write("hello world"); //in the webpage
+    
+    //static addition
+    // let a=5;
+    // let b=6;
+    // var c=a+b;
+    // console.log("the sum is:"+c);
+
+    //dynamic addition
+    // let a=prompt("please enter first number");
+    // let b=prompt("please enter second number");
+    // var c=parseInt(a)+parseInt(b);
+    // console.log("the sum of"+a+"&"+b+"is"+c);
+
+    //sqrt
+    // let a=prompt("please enter number");
+    // let b=Math.sqrt(a);
+    // console.log(b);
+
+    //right angle triangle area
+    // let b=prompt("please enter base");
+    // let h=prompt("please enter height");
+    // let area=parseInt(b)*parseInt(h)/2;
+    // console.log(area);
+
+    //normal triangle area
+    // let a=10;
+    // let b=9;
+    // let c=9;
+    // let s=(a+b+c)/2;
+    // let f=s*(s-a)*(s-b)*(s-c);
+    // let area=Math.sqrt(f);
+    // console.log(area);
+
+    //swapping 2 numbers
+    // let a=prompt("please enter first number");
+    // let b=prompt("please enter second number");
+    // let c;
+    // c=a;
+    // a=b;
+    // b=c;
+    // console.log(a);
+    // console.log(b);
+
+    //km to miles
+    // function convert(){
+    //     var Value=document.getElementById("data").value;
+    //     const factor=0.621371;
+    //     var miles=Value*factor;
+    //     // document.getElementById("result").innerText=`${miles} miles`;
+    //     document.getElementById('result').innerText=miles+'miles';
+    // }
+
+    //cel to fah
+    // function convert(){
+    //     var Value=document.getElementById("data").value;
+    //     var ans=(Value*1.8)+32;
+    //     document.getElementById('result').innerText=ans+'fah';
+    // }
+
+    //check -ve or +ve
+    // function check(){
+    //     var Value=document.getElementById("data").value;
+    //     var res=Math.sign(Value);
+    //     document.getElementById("result").innerText=res;
+    // }
+
+    //random 
+    // var x=Math.random()*(10-1)+1;
+    // var x=Math.random()*1000;
+    // console.log(Math.floor(x));
+
+    //even odd
+    // var x=4;
+    // var result= x%2 ==0? "yes" : "no";
+    // console.log(result);
+
+    //prime or not prime
+    // var number=prompt("Enter number");
+    // if(number==1){
+    //     console.log(`${number} is neither prime nor composite`);
+    // }
+    // else if(number<1){
+    //     console.log(`${number} is not a prime number`);
+    // }
+    // else{
+    //     for(var i=2;i<number;i++){
+    //         if(number%i==0){
+    //             var res=`${number} is not prime number`;
+    //             break;
+    //         }
+    //         else{
+    //             var res=`${number} is a prime number`;
+    //         }
+    //     }
+    //     console.log(res);
+    // }
+
+    //maximum
+    // var number1=prompt("Enter first number");
+    // var number2=prompt("Enter second number");
+    // var number3=prompt("Enter third number");
+    // var x=Math.max(number1,number2,number3);
+    // console.log(x);
+
+    //table
+    // var number=prompt("Enter number");
+    // for(var i=1;i<=10;i++){
+    //     console.log(number+"*"+i+"="+number*i);
+    // }
+
+    //last digit is same or not
+    // var a=prompt("Enter number 1");
+    // var b=prompt("Enter number 2");
+    // var c=prompt("Enter number 3");
+    // var r1=a%10;
+    // var r2=b%10;
+    // var r3=c%10;
+    // if(r1==r2 && r1==r3){
+    //     console.log("yea same ");
+    // }
+    // else {
+    //     console.log("not same");
+    // }
+
+    //palindrome string
+    // var string=prompt("Enter your string");
+    // var stringarray=string.split('');
+    // var stringarrayreverse=stringarray.reverse();
+    // var revstring=stringarrayreverse.join('');
+    // if(string===revstring){
+    //     console.log("yes");
+    // }
+    // else{
+    //     console.log("no");
+    // }
+  
+    //palindrome
+    // var string=prompt("Enter your string");
+    // var len=string.length;
+    // var msg="It is palindrome";
+    // for(var i=0;i<len/2;i++){
+    //     if(string[i]!=string[len-1-i]){
+    //         msg="not a palindrome";
+    //     }
+    // }
+    // console.log(msg);
+
+    //number of occurences of letter
+    // var string=prompt("Enter your string");
+    // var letter=prompt("Enter the letter");
+    // var c=0;
+    // for(var i=0;i<string.length;i++){
+    //     if(string[i]===letter){
+    //         c=c+1;
+    //     }
+    // }
+    // console.log(c);
+
+    //startswith and endswith
+    // var string=prompt("plaese enter a string");
+    // console.log(string);
+    // var teststart=string.startsWith("W");
+    // var testend=string.endsWith("h");
+    // console.log(`starts:${teststart}`);
+    //  console.log(`ends:${testend}`);
+    // if(teststart==true && testend==true){
+    //     console.log("hence satisfied");
+    // }
+
+    //if string has substring
+    // var string=prompt("plaese enter a string");
+    // var substring=prompt("plaese enter a substring");
+    // var result=string.includes(substring);
+    // var result1=string.indexOf(substring);
+    // console.log(result);
+    // console.log(result1);
+
+    //first letter uppercase
+    // var string=prompt("plaese enter a string");
+    // var first=string.charAt(0);
+    // var rem=string.slice(1);
+    // var caps=first.toUpperCase()+rem;
+    // console.log(caps);
+
+    //number of vowels using regex
+    // var string=prompt("plaese enter a string");
+    // const reg=/[aeiou]/gi;
+    // var chars=string.match(reg);
+    // console.log(chars.length);
+
+    //armstrong between an interval
+    // var a=prompt("plaese enter a lower limit");
+    // var b=prompt("plaese enter a upper limit");
+    // for(var i=a;i<=b;i++){
+    //     var temp=i;
+    //     var sum=0;
+    //     var digits=i.toString().length;
+    //     while(temp>0){
+    //         var digit=temp%10;
+    //         temp=parseInt(temp/10);
+    //         sum=sum+digit**digits;
+    //     }
+    //     if(sum==i){
+    //         console.log(i);
+    //     }
+    // }
+
+    //sum og natural number
+    // var num=prompt("plaese enter a number");
+    // var sum=0;
+    // for(var i=1;i<=num;i++){
+    //     sum=sum+i;
+    // }
+    // console.log(sum);
+
+    //sum og natural number recursion
+    // function sum(num){
+    //     if(num>0){
+    //         return num+sum(num-1);
+    //     }
+    //     else{
+    //         return num;
+    //     }
+    // }
+    // var s=sum(10);
+    // console.log(s);
+
+    //factors of number
+    // var num=prompt("plaese enter a number");
+    // for(var i=1;i<=num;i++){
+    //   if(num%i==0){
+    //     console.log(i);
+    //   }
+    // }
+
+    //fibonacci series
+    // var a=0,b=1;
+    // console.log(a);
+    // console.log(b);
+    // for(var i=0;i<=10;i++){
+    //      var temp=a+b;
+    //      console.log(temp);
+    //      a=b;
+    //      b=temp;
+    // }
+
+    //replace characters
+    // var string="mr red has red car";
+    // var reg=new RegExp('red','gi');
+    // var newstring=string.replace(reg,'blue');
+    // console.log(newstring);
+
+    //reverse a string
+    // var string=prompt("plaese enter a string");
+    // var l=string.length;
+    // var revstr='';
+    // for(var i=l-1;i>=0;i--){
+    //     revstr=revstr+string[i];
+    // }
+    // console.log(revstr);
+
+    //sort the word in alphabetical order
+    // var string=prompt("plaese enter a string");
+    // var strarray=string.split(' ');
+    // var arranged=strarray.sort();
+    // console.log(arranged.join(' '));
+</script>
+</html>
